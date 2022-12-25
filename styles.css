@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.bg {
+  height: 100%;
+  width: 100%;
+  background-image: url('./images/bg-intro-mobile.png');
+  background-color: #ff7978;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  z-index: -999;
+}
+
+.container {
+  padding: 2.5rem;
+  max-width: 500px;
+}
+
+.text-container {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.text-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.text-sub {
+  color: rgb(255, 218, 218);
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.form-header {
+  background-color: #5d54a3;
+  color: #fff;
+  padding: 0.1rem 0;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.form-header h4 {
+  line-height: 2;
+}
+
+form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 1.2rem;
+  border-radius: 15px;
+  margin: 2rem 0;
+}
+
+form input {
+  width: 100%;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px gray solid;
+}
+
+form button {
+  background-color: #37cc8a;
+  color: #fff;
+  padding: 2rem 0;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.agreement {
+  color: rgb(179, 179, 179);
+  padding: 0 1.2rem;
+  text-align: center;
+}
